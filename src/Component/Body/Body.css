@@ -1,0 +1,25 @@
+.Search{
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+    flex: 1;
+    padding: 10px;
+    height: 30px;
+    border-radius: 999px;
+    border: 1px solid lightgray;
+    /* margin: 100px; */
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.Search > input{
+    outline: none;
+    border:none;
+    width: 1000px;
+    
+}
+.row{
+    display: flex;
+}
+h3{
+    background-color: blue;
+}
