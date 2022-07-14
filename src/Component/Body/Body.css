@@ -1,5 +1,22 @@
+.Text{
+    text-align: center;
+}
+.nav{
+    margin-top: 100px;
+}
+.nav > button{
+    width: 100px;
+    height: 30px; 
+    object-fit: contain;
+    margin-left: 100px;
+    justify-content:space-around;
+    margin-right: 40px;;
+}
+
+
+
 .Search{
-    display: flex;
+    /* display: flex; */
     align-items: center;
     max-width: fit-content;
     flex: 1;
@@ -18,8 +35,18 @@
     
 }
 .row{
+    margin-top: 50px;
     display: flex;
+    outline: none;
+    text-decoration: none;
 }
-h3{
-    background-color: blue;
+ul > li{
+    text-decoration: none;
+    outline: none;
+    display:flex;
 }
+.Section{
+margin-top: 100px;
+}
+
+

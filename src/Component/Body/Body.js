@@ -1,6 +1,5 @@
 import React, { useState} from 'react';
-import '..Body/Body.css';
-import './Bs.css'
+
 
 const Body = () => {
     const [key, setkey] = useState('');
@@ -85,19 +84,19 @@ const Body = () => {
 
     return (
         <>
-            <div className="Search">
+            <div className="">
                 <div className="">
 
 
-                    <div className="my-3">
-                        <h3>
+                    <div className="">
+                        <h3 className='Text'>
                             WITHOUT DATE SORTING
                         </h3>
-                        <div className="my-2">
+                        <div className="">
                             <div className="Search">
                                 <input type="search" name="" id="" onChange={(e) => filter(e.target.value)} />
                             </div>
-                            <div className="d-flex">
+                            <div className="nav">
                                 <button onClick={(e) => filter('')}>all</button>
                                 <button onClick={(e) => filter('man')}>man</button>
                                 <button onClick={(e) => filter('women')}>women</button>
@@ -114,7 +113,7 @@ const Body = () => {
                                             .includes(key.toLowerCase())).map(({ name, type, date, id }, i) => {
                                                 return (
                                                     <>
-                                                        <div className="col-md-3">
+                                                        <div className="row-list">
 
                                                             <ul className='transparent'>
                                                                 <li>{name} </li>
@@ -132,15 +131,15 @@ const Body = () => {
 
 
 
-                    <div className="my-3">
-                        <h3>
+                    <div className="Section">
+                        <h3 className='Text'>
                             WITH DATE SORTING
                         </h3>
-                        <div className="my-2">
+                        <div className="">
                             <div className="Search">
                                 <input type="search" name="" id="" onChange={(e) => filters(e.target.value)} />
                             </div>
-                            <div className="d-flex">
+                            <div className="nav">
                                 <button onClick={(e) => filters('')}>all</button>
                                 <button onClick={(e) => filters('man')}>man</button>
                                 <button onClick={(e) => filters('women')}>women</button>
@@ -148,13 +147,13 @@ const Body = () => {
                                 <button onClick={(e) => filters('adolescent')}>adolescent</button>
                             </div>
                         </div>
-                        <div className="row">
+                        <div className="">
 
                             {items.map(({ date, data }, i) => {
 
                                 return (
                                     <>
-                                        <div className="col-md-3">
+                                        <div className="row">
                                             {date}
                                             {data.filter((x) => x.type
                                                 .includes(keys.toLowerCase()) || x.name.toLowerCase()
@@ -163,7 +162,7 @@ const Body = () => {
                                                             .includes(keys.toLowerCase())).map(({ name, type, date, id }, i) => {
                                                                 return (
                                                                     <>
-                                                                        <div className="col-md-4">
+                                                                        <div className="row-list">
 
                                                                             <ul className='transparent'>
                                                                                 <li>{name} </li>
