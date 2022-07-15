@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Documentation for the Engineering-challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## This web app was created using React which has both the header, body and  the footer in the src folder under the component.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Header
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## The header contain a name(Olapelu), which i represented it has the logo for the website.
+## And alsoo has a css file which i used to style the header.js
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Body
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## The body has the combination of both the search bar, the category button and the date filitering, which can be located in the src folder under the Body folder.
+## I made two filtering the one with that filter the date and the one that doesn't.
+## And also add set key to the search bar, to make the search identify any search item in the category item.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## It also has some set of data which has an id, name, type and date which was mapped.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Each filter button has some set of data that showforth after been clicked, and also for the date filtering at the left hand of it displaying the date of each item in a category.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## And also at the body folder there is also a styling made which i used pure css to style the Body.css
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+# Footer
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## For the footer i just added a random text which has some information for the footer and i also styled it and align the text to the center.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Component
 
-### Analyzing the Bundle Size
+## For the APP.js that is where all the component i render is(Header, Body and Footer), which display on the page of a browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## The App component is been called in the index.js, which allow the other component which are called in the App.js to render on our browser. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
