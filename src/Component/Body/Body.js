@@ -1,5 +1,5 @@
 import React, { useState} from 'react';
-
+import SearchIcon from '@mui/icons-material/Search';
 
 const Body = () => {
     const [key, setkey] = useState('');
@@ -95,6 +95,7 @@ const Body = () => {
                         <div className="">
                             <div className="Search">
                                 <input type="search" name="" id="" onChange={(e) => filter(e.target.value)} />
+                                <SearchIcon/>
                             </div>
                             <div className="nav">
                                 <button onClick={(e) => filter('')}>all</button>
@@ -138,6 +139,7 @@ const Body = () => {
                         <div className="">
                             <div className="Search">
                                 <input type="search" name="" id="" onChange={(e) => filters(e.target.value)} />
+                                <SearchIcon/>
                             </div>
                             <div className="nav">
                                 <button onClick={(e) => filters('')}>all</button>
